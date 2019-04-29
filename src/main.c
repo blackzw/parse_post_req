@@ -77,7 +77,7 @@ int parse_config(Wifi_config_t *wconfig, char *text)
 
 int main(int argc, char const *argv[])
 {
-    char text[] = "ssid=abcd&pwd=gome1234";
+    char text[] = "ssid=abcd&pwd=gggg1234";
     Wifi_config_t wconfig = {.ssid = {0}, .pwd = {0}};
     parse_config(&wconfig, text);
     
